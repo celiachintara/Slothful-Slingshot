@@ -50,12 +50,12 @@ int n;
 	vector <ketapel> catapul;
 	priority_queue <ketapel, vector<ketapel>, compare> prio;
 	double p_x,p_y,l_x,l_y,c_x,c_y;
-	while(true){
+	while(1){
 		scanf("%d", &n);
 		catapul.resize(n+2);
 		scanf("%lf %lf %lf %lf",&catapul[0].x,&catapul[0].y,&catapul[n+1].x,&catapul[n+1].y);
 		prio.push(catapul[0]);
-		//catapul=...
+		catapul[0].jarak = 0;
 		catapul[n+1].jarak = 1000000000.0 * sqrt(2); 
 		if(n==-1 && catapul[0].x==-1 && catapul[0].y==-1 && catapul[n+1].x==-1 && catapul[n+1].y== -1){
 			break;
