@@ -46,7 +46,7 @@ double BFS(ketapel a, ketapel b, ketapel c){
 }
 
 int main(){
-int n;
+	int n;
 	vector <ketapel> catapul;
 	priority_queue <ketapel, vector<ketapel>, compare> prio;
 	double p_x,p_y,l_x,l_y,c_x,c_y;
