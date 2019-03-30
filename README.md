@@ -1,5 +1,10 @@
 # Slothful Slingshot
 
+### Author :
+### - Tubagus Irkham I. A. (05111740000012)
+### - Celia Chintara Yuwine (05111740000058)
+### - Hayu Ajeng Radriyantami (05111740000151)
+
 ## What is Slothful Slingshot?
 
 **Slothful Slingshot** is a program to find the smallest cost that must be spent to depart
