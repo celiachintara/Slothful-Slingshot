@@ -61,17 +61,30 @@ int main(){
 			break;
 		}
 		else{
-			...
-			...
-			...
+			for(int i=1;i<=n;i++){
+				scanf("%lf %lf %lf", &catapul[i].x,&catapul[i].y,&catapul[i].F);	
+				catapul[i].jarak =1000000000.0*sqrt(2);
+			
+			
 			while(!((prio.top().x==catapul[n+1].x) && (prio.top().y ==catapul[n+1].y))){
-				...
-				...
-				...
+				ketapel simpan;
+				simpan = prio.top();
+				prio.pop();
+				if(simpan.x == catapul[n+1].x && simpan.y == catapul[n+1].y) break;
+				for(int i=1;i<=n+1;i++){
+					ketapel tmp;
+					tmp = catapul[i];
+					tmp.jarak = BFS(simpan,catapul[i],tmp);
+					if(tmp.jarak<catapul[i].jarak){
+						catapul[i].jarak = tmp.jarak;
+						prio.push(catapul[i]);
+					}
+				}
 			}
-			...
-			...
-			...
+			ketapel ans;
+			ans = prio.top();
+			prio.pop();
+			printf("%.2lf\n", ans.jarak);
 			while(!prio.empty()){
 				prio.pop();
 			}
