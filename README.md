@@ -18,12 +18,14 @@ Here is a testcase that you can try using our program.
 Input:
 ```
 5
-1 1 10 10
+10 10 1 1
 8 8 7
 8 3 7
 3 8 7
 5 5 5
 3 3 7
+-1
+-1 -1 -1 -1
 ```
 
 Output:
