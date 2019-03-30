@@ -1,9 +1,9 @@
 # Slothful Slingshot
 
-### Author :
-### - Tubagus Irkham I. A. (05111740000012)
-### - Celia Chintara Yuwine (05111740000058)
-### - Hayu Ajeng Radriyantami (05111740000151)
+###### Author :
+- **Tubagus Irkham I. A. (05111740000012)**
+- **Celia Chintara Yuwine (05111740000058)**
+- **Hayu Ajeng Radriyantami (05111740000151)**
 
 ## What is Slothful Slingshot?
 
