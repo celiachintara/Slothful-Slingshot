@@ -51,8 +51,10 @@ int main(){
 	priority_queue <ketapel, vector<ketapel>, compare> prio;
 	double p_x,p_y,l_x,l_y,c_x,c_y;
 	while(1){
+		printf("Input the number of catapult: ");
 		scanf("%d", &n);
 		catapul.resize(n+2);
+		printf("Input the start point and finish point (separate it by space): ");
 		scanf("%lf %lf %lf %lf",&catapul[0].x,&catapul[0].y,&catapul[n+1].x,&catapul[n+1].y);
 		prio.push(catapul[0]);
 		catapul[0].jarak = 0;
@@ -62,6 +64,7 @@ int main(){
 		}
 		else{
 			for(int i=1;i<=n;i++){
+				printf("input catapult [%d]'s coordinate and throwing power (separate it by space): ", i);
 				scanf("%lf %lf %lf", &catapul[i].x,&catapul[i].y,&catapul[i].F);	
 				catapul[i].jarak =1000000000.0*sqrt(2);
 			}
@@ -84,7 +87,7 @@ int main(){
 			ketapel ans;
 			ans = prio.top();
 			prio.pop();
-			printf("%.2lf\n", ans.jarak);
+			printf("The minimum cost is: %.2lf\n", ans.jarak);
 			while(!prio.empty()){
 				prio.pop();
 			}
