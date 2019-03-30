@@ -64,7 +64,7 @@ int main(){
 			for(int i=1;i<=n;i++){
 				scanf("%lf %lf %lf", &catapul[i].x,&catapul[i].y,&catapul[i].F);	
 				catapul[i].jarak =1000000000.0*sqrt(2);
-			
+			}
 			
 			while(!((prio.top().x==catapul[n+1].x) && (prio.top().y ==catapul[n+1].y))){
 				ketapel simpan;
