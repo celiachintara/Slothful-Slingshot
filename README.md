@@ -1,6 +1,6 @@
 # Slothful Slingshot
 
-###### Author :
+###### **Author :**
 - **Tubagus Irkham I. A. (05111740000012)**
 - **Celia Chintara Yuwine (05111740000058)**
 - **Hayu Ajeng Radriyantami (05111740000151)**
@@ -14,3 +14,7 @@ to the finish point.
 To make it easier to calculate the distance between starting point, finish point, and cata
 -pults, we use the coordinate plane. The location of these points can be represented by
 coordinate points which represented as (x, y).
+
+To read fully about details of our program, We have already made pdf file that can be
+accessed above. The pdf file itself contains explanation and also observation of our
+program.
